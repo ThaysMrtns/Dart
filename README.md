@@ -6,3 +6,7 @@
 ## Interface
 ### Referências
 > https://medium.com/jay-tillu/interface-in-dart-5da3b139a3ea
+#
+## Mixins
+### Referências
+> https://www.treinaweb.com.br/blog/o-que-sao-mixins-e-qual-sua-importancia-no-dart
