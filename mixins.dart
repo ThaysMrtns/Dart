@@ -14,6 +14,15 @@ mixin Som {
   }
 }
 
+// Sobreescrevendo método da super classe apenas para algumas classes filhas
+mixin ComerMixin on Animal{
+  @override
+  void comer(){
+    print("Não vou comer! Tô sem fome.");
+    //super.comer();
+  }
+}
+
 abstract class Animal {
   String nome;
 
@@ -26,11 +35,10 @@ abstract class Animal {
 
 class Cachorro extends Animal with Som {
   String nome;
-
   Cachorro(this.nome) : super(nome);
 }
 
-class Peixe extends Animal {
+class Peixe extends Animal with ComerMixin {
   String nome;
   Peixe(this.nome) : super(nome);
 }
