@@ -10,3 +10,4 @@
 ## Mixins
 ### Referências
 > https://www.treinaweb.com.br/blog/o-que-sao-mixins-e-qual-sua-importancia-no-dart
+> https://quickbirdstudios.com/blog/flutter-dart-mixins/
